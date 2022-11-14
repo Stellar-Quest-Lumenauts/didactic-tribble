@@ -3,8 +3,13 @@
   import LayoutGrid, { Cell } from '@smui/layout-grid';
   import moment from 'moment';
 
-  const evtSource = new EventSource("https://horizon.stellar.org/accounts/GA4O6I5J2BPHHQT3RNCOFVXUSUVILNUAQU4UZAHDAMSYFENR3QII4QDP/payments?order=asc&include_failed=false&limit=200")
-  const start = moment("2022-11-11T02:00:00.000Z")
+  // SQ0501
+  //const evtSource = new EventSource("https://horizon.stellar.org/accounts/GA4O6I5J2BPHHQT3RNCOFVXUSUVILNUAQU4UZAHDAMSYFENR3QII4QDP/payments?order=asc&include_failed=false&limit=200")
+  //const start = moment("2022-11-11T02:00:00.000Z")
+  
+  //SQ0502
+  const evtSource = new EventSource("https://horizon.stellar.org/accounts/GCMOPDUBGJZ6IZSD4WRCGAC3VUFHQNRZEPHM2UB2V3QWVAJ7NDGHOOG7/payments?order=asc&include_failed=false&limit=200")
+  const start = moment("2022-11-14T14:00:00.000")
 
   let winnerKey = undefined
   let winnerTime = ""
@@ -45,7 +50,7 @@
   }
 
 </script>
-<h1>SQ0501: Leaderboard!</h1>
+<h1>SQ0502: Leaderboard!</h1>
 <main>
 
   <div class="leaders">
