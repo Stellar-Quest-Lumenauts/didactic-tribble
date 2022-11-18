@@ -8,9 +8,13 @@
   //const start = moment("2022-11-11T02:00:00.000Z")
   
   //SQ0502
-  const evtSource = new EventSource("https://horizon.stellar.org/accounts/GCMOPDUBGJZ6IZSD4WRCGAC3VUFHQNRZEPHM2UB2V3QWVAJ7NDGHOOG7/payments?order=asc&include_failed=false&limit=200")
-  const start = moment("2022-11-14T14:00:00.000")
-
+  //const evtSource = new EventSource("https://horizon.stellar.org/accounts/GCMOPDUBGJZ6IZSD4WRCGAC3VUFHQNRZEPHM2UB2V3QWVAJ7NDGHOOG7/payments?order=asc&include_failed=false&limit=200")
+  //const start = moment("2022-11-14T14:00:00.000")
+  
+  //SQ503
+  const evtSource = new EventSource("https://horizon.stellar.org/accounts/GCS4T4Z3E6WIRYGLW7BHKDZU2EAQBVB3PPE7UMG24OCXAFNLELIHKMJ3/payments?order=asc&include_failed=false&limit=200")
+  const start = moment("2022-11-21T14:00:00.000Z")
+  
   let winnerKey = undefined
   let winnerTime = ""
 
