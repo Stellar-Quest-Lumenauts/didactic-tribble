@@ -54,7 +54,7 @@
   }
 
 </script>
-<h1>SQ0502: Leaderboard!</h1>
+<h1>SQ0503: Leaderboard!</h1>
 <main>
 
   <div class="leaders">
