@@ -89,3 +89,11 @@ button:focus-visible {
 h6 {
   word-break: break-all;
 }
+
+.mdc-deprecated-list-item__primary-text {
+  color:white;
+}
+
+.mdc-deprecated-list-item__secondary-text {
+  color:gray;
+}
